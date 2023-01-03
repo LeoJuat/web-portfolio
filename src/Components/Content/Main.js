@@ -41,12 +41,22 @@ const Main = ({ mainRef }) => {
           <span className="text-[#fcc419] underline">Front-End Developer.</span>
         </h1>
         <div className="flex flex-col gap-20 absolute right-5 pt-9 transition-all">
-          <button className="rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out">
-            LINKEDIN
-          </button>
-          <button className="rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out">
+          <a
+            href={"https://github.com/LeoJuat"}
+            target="_blank"
+            rel="noreferrer"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+          >
             GITHUB
-          </button>
+          </a>
+          <a
+            href={"https://www.linkedin.com/in/leo-juat/"}
+            target="_blank"
+            rel="noreferrer"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+          >
+            LINKEDIN
+          </a>
         </div>
       </section>
     </>
