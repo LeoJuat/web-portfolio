@@ -1,0 +1,70 @@
+.hello {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-hello;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.wave {
+  transform: rotate(0deg);
+  animation-duration: 2s;
+  animation-name: animate-wave;
+  animation-iteration-count: infinite;
+}
+
+.intro {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-intro;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-hello {
+  0% {
+    transform: translateX(-32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-wave {
+  10% {
+    transform: rotate(20deg);
+  }
+  20% {
+    transform: rotate(-14deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(16deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animate-intro {
+  0% {
+    transform: translateX(32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
