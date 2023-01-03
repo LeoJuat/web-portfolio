@@ -18,7 +18,7 @@ const Header = ({ mainIsIntersecting, projectsIsIntersecting }) => {
   return (
     <header className="flex w-full bg-[#202124fd] transition-all fixed z-10">
       <button
-        className={`h-20 w-full font-medium tracking-[0.2em] text-left pl-10 text-xs text-[#f1f3f5] duration-200 ease-in-out border-r border-[#353738] hover:bg-[#353738]  ${
+        className={`h-20 w-full font-medium tracking-[0.2em] text-left pl-10 text-xs text-[#f1f3f5] duration-200 ease-in-out border-r border-[#353738] hover:bg-[#353738] ${
           mainIsIntersecting && !projectsIsIntersecting && styles.active
         }`}
         onClick={logoHandler}
@@ -26,7 +26,7 @@ const Header = ({ mainIsIntersecting, projectsIsIntersecting }) => {
         JUATLEO
       </button>
       <button
-        className={`h-20 w-full font-medium tracking-[0.2em] text-left pl-10 text-xs text-[#f1f3f5] duration-200 ease-in-out border-r border-[#353738] hover:bg-[#353738]  ${
+        className={`h-20 w-full font-medium tracking-[0.2em] text-left pl-10 text-xs text-[#f1f3f5] duration-200 ease-in-out border-r border-[#353738] hover:bg-[#353738] ${
           projectsIsIntersecting && !mainIsIntersecting && styles.active
         }`}
         onClick={projectsHandler}
