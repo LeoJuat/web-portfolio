@@ -25,6 +25,42 @@
   animation-fill-mode: forwards;
 }
 
+.animateP1 {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-p1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateP2 {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-p2;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.skillHeader {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-skillHeader;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.skills {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-skills;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
 @keyframes animate-about {
   0% {
     transform: translateX(-32px);
@@ -50,6 +86,50 @@
 @keyframes animate-line2 {
   0% {
     transform: translateX(-24px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-p1 {
+  0% {
+    transform: translateX(36px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-p2 {
+  0% {
+    transform: translateX(-36px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-skillHeader {
+  0% {
+    transform: translateX(36px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-skills {
+  0% {
+    transform: translateX(-36px);
   }
 
   100% {

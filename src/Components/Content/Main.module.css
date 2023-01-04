@@ -1,6 +1,6 @@
 .hello {
   opacity: 0;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-name: animate-hello;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -16,7 +16,7 @@
 
 .intro {
   opacity: 0;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-name: animate-intro;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
@@ -25,8 +25,17 @@
 
 .links {
   opacity: 0;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-name: animate-links;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.skillHeader {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-header;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -86,5 +95,16 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes animate-header {
+  0% {
+    transform: translateY(64px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

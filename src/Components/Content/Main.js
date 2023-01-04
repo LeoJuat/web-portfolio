@@ -44,7 +44,7 @@ const Main = ({ mainRef }) => {
         </h1>
         <div
           ref={linksRef}
-          className={`flex flex-col gap-20 absolute right-5 pt-7 transition-all ${
+          className={`absolute flex flex-col gap-20 right-5 pt-7 transition-all ${
             linksIsIntersecting && styles.links
           }`}
         >
@@ -54,7 +54,7 @@ const Main = ({ mainRef }) => {
             }
             target="_blank"
             rel="noreferrer"
-            className="-rotate-90 font-medium tracking-[0.2em] text-xs -mb-3 text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs -mb-3 text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out hover:scale-110 underline underline-offset-8 decoration-[#fcc419]"
           >
             RESUME
           </a>
@@ -62,7 +62,7 @@ const Main = ({ mainRef }) => {
             href={"https://github.com/LeoJuat"}
             target="_blank"
             rel="noreferrer"
-            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out hover:scale-110 underline underline-offset-8 decoration-[#fcc419]"
           >
             GITHUB
           </a>
@@ -70,7 +70,7 @@ const Main = ({ mainRef }) => {
             href={"https://www.linkedin.com/in/leo-juat/"}
             target="_blank"
             rel="noreferrer"
-            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out hover:scale-110 underline underline-offset-8 decoration-[#fcc419]"
           >
             LINKEDIN
           </a>

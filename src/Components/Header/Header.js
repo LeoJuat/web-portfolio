@@ -16,11 +16,11 @@ const Header = ({
   };
 
   const projectsHandler = () => {
-    window.scrollTo({ top: 930, behavior: "smooth" });
+    window.scrollTo({ top: 910, behavior: "smooth" });
   };
 
   const aboutHandler = () => {
-    window.scrollTo({ top: 2725, behavior: "smooth" });
+    window.scrollTo({ top: 2710, behavior: "smooth" });
   };
 
   return (

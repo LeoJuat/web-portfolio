@@ -12,7 +12,7 @@ function App() {
   const { ref: aboutRef, inView: aboutIsIntersecting } = useInView();
 
   return (
-    <React.Fragment>
+    <>
       <Header
         mainIsIntersecting={mainIsIntersecting}
         projectsIsIntersecting={projectsIsIntersecting}
@@ -21,7 +21,7 @@ function App() {
       <Main mainRef={mainRef} />
       <Projects projectsRef={projectsRef} />
       <About aboutRef={aboutRef} aboutIsIntersecting={aboutIsIntersecting} />
-    </React.Fragment>
+    </>
   );
 }
 

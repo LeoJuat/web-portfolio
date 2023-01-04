@@ -17,12 +17,13 @@ export default function ProjectCard() {
         </h1>
         <h2 className="text-[#868e96] text-base tracking-wider mb-5">
           React <span className="text-[#fcc419] text-lg">|</span> Tailwind CSS{" "}
+          <span className="text-[#fcc419] text-lg">|</span> Material UI{" "}
           <span className="text-[#fcc419] text-lg">|</span> Firebase{" "}
-          <span className="text-[#fcc419] text-lg">|</span> API
+          <span className="text-[#fcc419] text-lg">|</span> API{" "}
         </h2>
         <Slides cardIsIntersecting={cardIsIntersecting} />
       </Card>
-      <div className={`flex gap-5 transition-all pl-8 ${styles.webPortfolio}`}>
+      <div className={`flex gap-5 transition-all pl-8`}>
         <a
           href={"https://trackr-production.web.app/"}
           target="_blank"
