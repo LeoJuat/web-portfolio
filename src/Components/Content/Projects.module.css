@@ -25,14 +25,14 @@
   animation-fill-mode: forwards;
 }
 
-.animateProjectIntro {
+/* .animateProjectIntro {
   opacity: 0;
   animation-duration: 1.2s;
   animation-name: animate-projectIntro;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-}
+} */
 
 @keyframes animate-project {
   0% {
@@ -67,7 +67,7 @@
   }
 }
 
-@keyframes animate-projectIntro {
+/* @keyframes animate-projectIntro {
   0% {
     transform: translateY(24px);
   }
@@ -76,4 +76,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */

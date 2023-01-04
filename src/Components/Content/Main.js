@@ -21,7 +21,8 @@ const Main = ({ mainRef }) => {
             helloIsIntersecting && styles.hello
           }`}
         >
-          <span className="text-xl"> ~ </span> HELLO WORLD
+          <span className="text-[#fcc419] font-Inconsolata text-base">01.</span>{" "}
+          HELLO WORLD
           <span
             ref={waveRef}
             className={`text-base text-[#868e96] pl-2 inline-block ${
@@ -43,10 +44,20 @@ const Main = ({ mainRef }) => {
         </h1>
         <div
           ref={linksRef}
-          className={`flex flex-col gap-20 absolute right-5 pt-9 transition-all ${
+          className={`flex flex-col gap-20 absolute right-5 pt-7 transition-all ${
             linksIsIntersecting && styles.links
           }`}
         >
+          <a
+            href={
+              "https://drive.google.com/file/d/1UY1OX6zXxZp-2D0v06pd97neoYF9r6mW/view"
+            }
+            target="_blank"
+            rel="noreferrer"
+            className="-rotate-90 font-medium tracking-[0.2em] text-xs -mb-3 text-[#868e96] hover:text-[#f1f3f5] duration-300 ease-in-out"
+          >
+            RESUME
+          </a>
           <a
             href={"https://github.com/LeoJuat"}
             target="_blank"

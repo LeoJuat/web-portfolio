@@ -5,6 +5,7 @@ module.exports = withMT({
   theme: {
     fontFamily: {
       PT: ["PT Serif", "serif"],
+      Inconsolata: ["Inconsolata", "monospace"],
     },
     extend: {},
   },

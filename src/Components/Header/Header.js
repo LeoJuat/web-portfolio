@@ -16,11 +16,11 @@ const Header = ({
   };
 
   const projectsHandler = () => {
-    window.scrollTo({ top: 900, behavior: "smooth" });
+    window.scrollTo({ top: 930, behavior: "smooth" });
   };
 
   const aboutHandler = () => {
-    window.scrollTo({ top: 1900, behavior: "smooth" });
+    window.scrollTo({ top: 2725, behavior: "smooth" });
   };
 
   return (
@@ -31,6 +31,7 @@ const Header = ({
         }`}
         onClick={logoHandler}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-sm">01.</span>{" "}
         JUATLEO
       </button>
       <button
@@ -39,6 +40,7 @@ const Header = ({
         }`}
         onClick={projectsHandler}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-sm">02.</span>{" "}
         PROJECTS
       </button>
       <button
@@ -47,12 +49,14 @@ const Header = ({
         }`}
         onClick={aboutHandler}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-sm">03.</span>{" "}
         ABOUT
       </button>
       <button
         className={`h-20 w-full font-medium tracking-[0.2em] text-left pl-10 text-xs text-[#f1f3f5] duration-200 ease-in-out border-r border-[#353738] hover:bg-[#353738]`}
         onClick={buttonClickedHandler}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-sm">04.</span>{" "}
         CONTACT
       </button>
     </header>

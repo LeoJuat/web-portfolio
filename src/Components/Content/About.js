@@ -7,13 +7,14 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
   const { ref: line1Ref, inView: line1IsIntersecting } = useInView();
   const { ref: line2Ref, inView: line2IsIntersecting } = useInView();
   return (
-    <section className="justify-center text-[#f1f3f5] w-3/4 mx-auto mt-40 pb-56 pt-40 h-[100.5vh]">
+    <section className="justify-center text-[#f1f3f5] w-3/4 mx-auto mt-40 h-[100.5vh]">
       <h3
         ref={aboutRef}
         className={`text-base text-[#868e96] tracking-[0.2em] pt-5 ${
           aboutIsIntersecting && styles.animateAbout
         }`}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-base">03.</span>{" "}
         ABOUT ME
       </h3>
       <hr

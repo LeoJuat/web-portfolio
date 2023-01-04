@@ -1,0 +1,19 @@
+.webPortfolio {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: animate-web;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-web {
+  0% {
+    transform: translateY(64px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

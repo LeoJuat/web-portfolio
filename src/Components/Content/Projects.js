@@ -1,6 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import ProjectCard from "../Utils/ProjectCard";
+import ProjectCard from "../Content/ProjectCard";
+import WebProjectCard from "../Content/WebProjectCard";
 
 import styles from "./Projects.module.css";
 
@@ -8,13 +9,13 @@ const Projects = ({ projectsRef }) => {
   const { ref: projectRef, inView: projectIsIntersecting } = useInView();
   const { ref: line1Ref, inView: line1IsIntersecting } = useInView();
   const { ref: line2Ref, inView: line2IsIntersecting } = useInView();
-  const { ref: projectIntroRef, inView: projectIntroIsIntersecting } =
-    useInView();
+  // const { ref: projectIntroRef, inView: projectIntroIsIntersecting } =
+  //   useInView();
 
   return (
     <section
       ref={projectsRef}
-      className="justify-center text-[#f1f3f5] w-3/4 mx-auto pb-56 pt-40 h-[100.5vh]"
+      className="justify-center text-[#f1f3f5] w-3/4 mx-auto pt-40 h-full"
     >
       <h3
         ref={projectRef}
@@ -22,6 +23,7 @@ const Projects = ({ projectsRef }) => {
           projectIsIntersecting && styles.animateProject
         }`}
       >
+        <span className="text-[#fcc419] font-Inconsolata text-base">02.</span>{" "}
         PROJECTS
       </h3>
       <hr
@@ -36,15 +38,16 @@ const Projects = ({ projectsRef }) => {
           line2IsIntersecting && styles.animateLine2
         }`}
       ></hr>
-      <h2
+      {/* <h2
         ref={projectIntroRef}
         className={`text-4xl w-4/6 font-PT mt-7 ${
           projectIntroIsIntersecting && styles.animateProjectIntro
         }`}
       >
         Take a look at some of my work.
-      </h2>
+      </h2> */}
       <ProjectCard />
+      <WebProjectCard />
     </section>
   );
 };
