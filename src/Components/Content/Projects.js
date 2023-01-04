@@ -1,5 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import ProjectCard from "../Utils/ProjectCard";
 
 import styles from "./Projects.module.css";
 
@@ -41,8 +42,9 @@ const Projects = ({ projectsRef }) => {
           projectIntroIsIntersecting && styles.animateProjectIntro
         }`}
       >
-        Take a look at some of my projects.
+        Take a look at some of my work.
       </h2>
+      <ProjectCard />
     </section>
   );
 };

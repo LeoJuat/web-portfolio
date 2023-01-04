@@ -7,6 +7,7 @@ const Main = ({ mainRef }) => {
   const { ref: helloRef, inView: helloIsIntersecting } = useInView();
   const { ref: waveRef, inView: waveIsIntersecting } = useInView();
   const { ref: introRef, inView: introIsIntersecting } = useInView();
+  const { ref: linksRef, inView: linksIsIntersecting } = useInView();
 
   return (
     <>
@@ -40,7 +41,12 @@ const Main = ({ mainRef }) => {
           My name is Leo Juat, <br /> and I am a <br />
           <span className="text-[#fcc419] underline">Front-End Developer.</span>
         </h1>
-        <div className="flex flex-col gap-20 absolute right-5 pt-9 transition-all">
+        <div
+          ref={linksRef}
+          className={`flex flex-col gap-20 absolute right-5 pt-9 transition-all ${
+            linksIsIntersecting && styles.links
+          }`}
+        >
           <a
             href={"https://github.com/LeoJuat"}
             target="_blank"

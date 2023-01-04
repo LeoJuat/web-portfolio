@@ -1,0 +1,59 @@
+.animateAbout {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: animate-about;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLine1 {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: animate-line1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLine2 {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: animate-line2;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-about {
+  0% {
+    transform: translateX(-32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-line1 {
+  0% {
+    transform: translateX(16px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-line2 {
+  0% {
+    transform: translateX(-24px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
