@@ -14,7 +14,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
 
   return (
     <>
-      <section className="justify-center text-[#f1f3f5] w-3/4 mx-auto mt-40 h-[100.5vh]">
+      <section className="justify-center text-[#f1f3f5] w-3/4 mx-auto mt-40 min-h-[100.5vh]">
         <h3
           ref={aboutRef}
           className={`text-base text-[#868e96] tracking-[0.2em] pt-5 ${
@@ -38,7 +38,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
         ></hr>
         <p
           ref={p1Ref}
-          className={`pb-10 pt-16 leading-8 text-lg w-11/12 mx-auto ${
+          className={`pb-10 pt-16 leading-8 text-base sm:text-lg w-11/12 mx-auto ${
             p1IsIntersecting && styles.animateP1
           }`}
         >
@@ -65,7 +65,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
         </p>
         <p
           ref={p2Ref}
-          className={`leading-8 text-lg w-11/12 mx-auto ${
+          className={`leading-8 text-base sm:text-lg w-11/12 mx-auto ${
             p2IsIntersecting && styles.animateP2
           }`}
         >
@@ -81,7 +81,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
         </p>
         <h1
           ref={skillsHeaderRef}
-          className={`mt-40 text-[#868e96] text-lg text-center font-medium tracking-[0.2em] ${
+          className={`mt-32 text-[#868e96] text-lg text-center font-medium tracking-[0.2em] ${
             skillsHeaderIsIntersecting && styles.skillHeader
           }`}
         >

@@ -19,7 +19,7 @@ export default function WebProjectCard() {
           <span className="text-[#fcc419] text-lg">|</span> Firebase{" "}
         </h2>
         <img
-          className="h-fit w-full object-cover rounded-lg shadow-lg border border-[#868e96] hover:scale-105 duration-300 ease-in-out"
+          className="h-fit w-full object-cover rounded-lg shadow-lg border border-[#868e96]"
           src={require("../../imgs/website.webp")}
           alt="this portfolio website"
         />

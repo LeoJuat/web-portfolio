@@ -1,0 +1,119 @@
+.animateContact {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: animate-contact;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLine1 {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: animate-line1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLine2 {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-name: animate-line2;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateForm {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-form;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLine {
+  opacity: 0;
+  animation-duration: 2.3s;
+  animation-name: animate-line;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.animateLinks {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-name: animate-links;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-contact {
+  0% {
+    transform: translateX(-32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-line1 {
+  0% {
+    transform: translateX(16px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-line2 {
+  0% {
+    transform: translateX(-24px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-form {
+  0% {
+    transform: translateX(64px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-line {
+  0% {
+    transform: translateX(-96px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate-links {
+  0% {
+    transform: translateY(32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

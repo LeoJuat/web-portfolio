@@ -8,7 +8,7 @@ import { Pagination, Autoplay } from "swiper";
 const Slides = () => {
   return (
     <Swiper
-      className="w-full hover:scale-105 duration-300 ease-in-out"
+      className="w-full"
       modules={[Pagination, Autoplay]}
       spaceBetween={0}
       slidesPerView={1}

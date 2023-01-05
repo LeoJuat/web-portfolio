@@ -17,11 +17,13 @@ const Main = ({ mainRef }) => {
       >
         <h3
           ref={helloRef}
-          className={`text-base text-[#868e96] tracking-[0.2em] ${
+          className={`text-xs sm:text-base text-[#868e96] tracking-[0.2em] ${
             helloIsIntersecting && styles.hello
           }`}
         >
-          <span className="text-[#fcc419] font-Inconsolata text-base">01.</span>{" "}
+          <span className="text-[#fcc419] font-Inconsolata text-xs sm:text-base">
+            01.
+          </span>{" "}
           HELLO WORLD
           <span
             ref={waveRef}
@@ -35,7 +37,7 @@ const Main = ({ mainRef }) => {
 
         <h1
           ref={introRef}
-          className={`text-6xl w-4/6 font-PT mt-7 ${
+          className={`sm:text-6xl w-4/6 font-PT mt-7 text-4xl ${
             introIsIntersecting && styles.intro
           }`}
         >
