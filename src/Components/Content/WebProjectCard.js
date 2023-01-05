@@ -29,7 +29,7 @@ export default function WebProjectCard() {
           href={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
           target="_blank"
           rel="noreferrer"
-          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5]"
+          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5] font-semibold"
         >
           Live website
         </a>
@@ -37,7 +37,7 @@ export default function WebProjectCard() {
           href={"https://github.com/LeoJuat/web-portfolio"}
           target="_blank"
           rel="noreferrer"
-          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5]"
+          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5] font-semibold"
         >
           Source code
         </a>

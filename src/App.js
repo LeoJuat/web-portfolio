@@ -10,10 +10,9 @@ import Contact from "./Components/Content/Contact";
 function App() {
   const { ref: mainRef, inView: mainIsIntersecting } = useInView();
   const { ref: projectsRef, inView: projectsIsIntersecting } = useInView();
-  const { ref: aboutRef, inView: aboutIsIntersecting, entry } = useInView();
+  const { ref: aboutRef, inView: aboutIsIntersecting } = useInView();
   const { ref: contactRef, inView: contactIsIntersecting } = useInView();
 
-  console.log(entry);
   return (
     <>
       <Header

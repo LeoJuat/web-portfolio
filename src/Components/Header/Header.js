@@ -30,7 +30,6 @@ const Header = ({
     window.scrollTo({ top: 4000, behavior: "smooth" });
   };
 
-  console.log(window.innerWidth);
   return (
     <header className="flex w-full bg-[#202124fd] transition-all fixed z-10">
       <button
