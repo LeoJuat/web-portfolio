@@ -17,7 +17,7 @@ const Slides = () => {
     >
       <SwiperSlide>
         <img
-          className="h-fit w-full object-cover rounded-lg"
+          className="h-full w-full object-cover rounded-lg"
           src={require("../../imgs/landing.webp")}
           alt="landing page"
         />
