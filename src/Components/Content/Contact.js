@@ -40,7 +40,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
   };
 
   return (
-    <section className="pt-0 sm:pt-32 justify-center text-[#f1f3f5] w-3/4 mx-auto min-h-[89vh]">
+    <section className="pt-44 sm:pt-32 justify-center text-[#f1f3f5] w-3/4 mx-auto min-h-[89vh]">
       <h3
         ref={contactRef}
         className={`text-base text-[#868e96] tracking-[0.2em] pt-5 ${
