@@ -77,7 +77,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
         <form
           onSubmit={submitHandler}
           ref={formRef}
-          className={`mt-10 sm:mt-28 mx-auto ${
+          className={`mt-24 sm:mt-28 mx-auto ${
             formIsIntersecting && styles.animateForm
           }`}
         >
@@ -92,6 +92,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
                     Name
                   </label>
                   <input
+                    placeholder="example: Leo Juat"
                     onChange={(e) => {
                       return setName(e.target.value);
                     }}
@@ -111,6 +112,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
                     Email
                   </label>
                   <input
+                    placeholder="example: test@test.com"
                     onChange={(e) => {
                       return setEmail(e.target.value);
                     }}
@@ -130,6 +132,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
                     Message
                   </label>
                   <textarea
+                    placeholder="Get in touch with me."
                     onChange={(e) => {
                       return setMessage(e.target.value);
                     }}

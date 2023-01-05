@@ -28,7 +28,7 @@ export default function ProjectCard() {
           href={"https://trackr-production.web.app/"}
           target="_blank"
           rel="noreferrer"
-          className="px-2 py-2 rounded-lg shadow-sm bg-blue-500 hover:scale-105 duration-200 ease-in-out shadow-blue-500 hover:bg-blue-400 text-[#f1f3f5]"
+          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5]"
         >
           Live website
         </a>
@@ -36,7 +36,7 @@ export default function ProjectCard() {
           href={"https://github.com/LeoJuat/TRACKr-reactjs"}
           target="_blank"
           rel="noreferrer"
-          className="px-2 py-2 rounded-lg shadow-sm bg-blue-500 hover:scale-105 duration-200 ease-in-out shadow-blue-500 hover:bg-blue-400 text-[#f1f3f5]"
+          className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5]"
         >
           Source code
         </a>
