@@ -3,6 +3,9 @@ import React from "react";
 import styles from "./Header.module.css";
 
 const Header = ({
+  projectsEntry,
+  aboutEntry,
+  contactEntry,
   mainIsIntersecting,
   projectsIsIntersecting,
   aboutIsIntersecting,
@@ -13,21 +16,15 @@ const Header = ({
   };
 
   const projectsHandler = () => {
-    window.scrollTo({
-      top: window.innerWidth > 640 ? 910 : 750,
-      behavior: "smooth",
-    });
+    projectsEntry.target?.scrollIntoView({ behavior: "smooth" });
   };
 
   const aboutHandler = () => {
-    window.scrollTo({
-      top: window.innerWidth > 640 ? 2710 : 1705,
-      behavior: "smooth",
-    });
+    aboutEntry.target?.scrollIntoView({ behavior: "smooth" });
   };
 
   const contactHandler = () => {
-    window.scrollTo({ top: 4000, behavior: "smooth" });
+    contactEntry.target?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

@@ -8,7 +8,10 @@ export default function ProjectCard() {
 
   return (
     <div className={`${cardIsIntersecting && styles.card}`}>
-      <Card ref={cardRef} className={`pt-10 bg-[#202124] scale-95`}>
+      <Card
+        ref={cardRef}
+        className={`pt-10 bg-transparent shadow-none scale-95`}
+      >
         <h2 className="text-[#fcc419] tracking-widest text-xs mt-3">
           Featured Project
         </h2>

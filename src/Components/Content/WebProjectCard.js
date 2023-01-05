@@ -7,7 +7,10 @@ export default function WebProjectCard() {
 
   return (
     <div className={`${cardIsIntersecting && styles.webPortfolio}`}>
-      <Card ref={cardRef} className={`pt-12 bg-[#202124] scale-95`}>
+      <Card
+        ref={cardRef}
+        className={`pt-12 bg-transparent shadow-none scale-95`}
+      >
         <h2 className="text-[#fcc419] tracking-widest text-xs mt-3">
           Featured Project
         </h2>

@@ -14,9 +14,11 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
 
   return (
     <>
-      <section className="justify-center text-[#f1f3f5] w-3/4 mx-auto mt-40 min-h-[100.5vh]">
+      <section
+        className="justify-center text-[#f1f3f5] w-3/4 mx-auto pt-40 min-h-[100.5vh]"
+        ref={aboutRef}
+      >
         <h3
-          ref={aboutRef}
           className={`text-base text-[#868e96] tracking-[0.2em] pt-5 ${
             aboutIsIntersecting && styles.animateAbout
           }`}

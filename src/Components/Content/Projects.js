@@ -9,8 +9,6 @@ const Projects = ({ projectsRef }) => {
   const { ref: projectRef, inView: projectIsIntersecting } = useInView();
   const { ref: line1Ref, inView: line1IsIntersecting } = useInView();
   const { ref: line2Ref, inView: line2IsIntersecting } = useInView();
-  // const { ref: projectIntroRef, inView: projectIntroIsIntersecting } =
-  //   useInView();
 
   return (
     <section
@@ -38,14 +36,6 @@ const Projects = ({ projectsRef }) => {
           line2IsIntersecting && styles.animateLine2
         }`}
       ></hr>
-      {/* <h2
-        ref={projectIntroRef}
-        className={`text-4xl w-4/6 font-PT mt-7 ${
-          projectIntroIsIntersecting && styles.animateProjectIntro
-        }`}
-      >
-        Take a look at some of my work.
-      </h2> */}
       <ProjectCard />
       <WebProjectCard />
     </section>

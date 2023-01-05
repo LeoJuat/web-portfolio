@@ -9,13 +9,28 @@ import Contact from "./Components/Content/Contact";
 
 function App() {
   const { ref: mainRef, inView: mainIsIntersecting } = useInView();
-  const { ref: projectsRef, inView: projectsIsIntersecting } = useInView();
-  const { ref: aboutRef, inView: aboutIsIntersecting } = useInView();
-  const { ref: contactRef, inView: contactIsIntersecting } = useInView();
+  const {
+    ref: projectsRef,
+    inView: projectsIsIntersecting,
+    entry: projectsEntry,
+  } = useInView();
+  const {
+    ref: aboutRef,
+    inView: aboutIsIntersecting,
+    entry: aboutEntry,
+  } = useInView();
+  const {
+    ref: contactRef,
+    inView: contactIsIntersecting,
+    entry: contactEntry,
+  } = useInView();
 
   return (
     <>
       <Header
+        projectsEntry={projectsEntry}
+        aboutEntry={aboutEntry}
+        contactEntry={contactEntry}
         mainIsIntersecting={mainIsIntersecting}
         projectsIsIntersecting={projectsIsIntersecting}
         aboutIsIntersecting={aboutIsIntersecting}
