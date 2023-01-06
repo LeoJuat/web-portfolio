@@ -28,7 +28,7 @@ export default function ProjectCard() {
       </Card>
       <div className={`flex gap-5 transition-all pl-8`}>
         <a
-          href={"https://trackr-production.web.app/"}
+          href={"https://trackr.fitness/"}
           target="_blank"
           rel="noreferrer"
           className="px-2 py-2 rounded-lg shadow-sm bg-[#fcc419] hover:scale-105 duration-200 ease-in-out shadow-[#fcc419] hover:bg-[#dcae22] text-[#f1f3f5] font-semibold"
