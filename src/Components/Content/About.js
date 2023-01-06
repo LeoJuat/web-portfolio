@@ -49,7 +49,11 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
             Front End Software Engineer
           </span>{" "}
           with a passion for creating visually stunning and user-friendly
-          websites and applications. I have a strong background in{" "}
+          websites and applications. I focus on{" "}
+          <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
+            React
+          </span>
+          , but have a strong background in{" "}
           <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
             HTML
           </span>
