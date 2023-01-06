@@ -40,7 +40,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
         ></hr>
         <p
           ref={p1Ref}
-          className={`pb-10 pt-16 leading-8 text-base sm:text-lg w-11/12 mx-auto ${
+          className={`pb-10 pt-20 leading-8 text-base sm:text-lg w-11/12 mx-auto ${
             p1IsIntersecting && styles.animateP1
           }`}
         >
