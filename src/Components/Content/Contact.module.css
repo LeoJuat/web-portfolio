@@ -52,6 +52,16 @@
   animation-fill-mode: forwards;
 }
 
+.animateFooter {
+  opacity: 0;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-name: animate-footer;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
 @keyframes animate-contact {
   0% {
     transform: translateX(-32px);
@@ -108,6 +118,17 @@
 }
 
 @keyframes animate-links {
+  0% {
+    transform: translateY(32px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animate-footer {
   0% {
     transform: translateY(32px);
   }

@@ -16,15 +16,24 @@ const Header = ({
   };
 
   const projectsHandler = () => {
-    projectsEntry.target?.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({
+      top: projectsEntry.target?.offsetTop + 60,
+      behavior: "smooth",
+    });
   };
 
   const aboutHandler = () => {
-    aboutEntry.target?.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({
+      top: aboutEntry.target?.offsetTop + 60,
+      behavior: "smooth",
+    });
   };
 
   const contactHandler = () => {
-    contactEntry.target?.scrollIntoView({ behavior: "smooth" });
+    window.scrollTo({
+      top: contactEntry.target?.offsetTop + 60,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -35,7 +44,9 @@ const Header = ({
         }`}
         onClick={logoHandler}
       >
-        <span className="text-[#fcc419] font-Inconsolata text-sm">01.</span>{" "}
+        <span className="text-[#fcc419] font-Inconsolata text-sm md:inline block">
+          01.
+        </span>{" "}
         JUATLEO
       </button>
       <button
@@ -44,7 +55,9 @@ const Header = ({
         }`}
         onClick={projectsHandler}
       >
-        <span className="text-[#fcc419] font-Inconsolata text-sm">02.</span>{" "}
+        <span className="text-[#fcc419] font-Inconsolata text-sm md:inline block">
+          02.
+        </span>{" "}
         PROJECTS
       </button>
       <button
@@ -53,7 +66,9 @@ const Header = ({
         }`}
         onClick={aboutHandler}
       >
-        <span className="text-[#fcc419] font-Inconsolata text-sm">03.</span>{" "}
+        <span className="text-[#fcc419] font-Inconsolata text-sm md:inline block">
+          03.
+        </span>{" "}
         ABOUT
       </button>
       <button
@@ -62,7 +77,9 @@ const Header = ({
         }`}
         onClick={contactHandler}
       >
-        <span className="text-[#fcc419] font-Inconsolata text-sm">04.</span>{" "}
+        <span className="text-[#fcc419] font-Inconsolata text-sm md:inline block">
+          04.
+        </span>{" "}
         CONTACT
       </button>
     </header>
