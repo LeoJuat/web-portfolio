@@ -36,8 +36,8 @@ const Projects = ({ projectsRef }) => {
           line2IsIntersecting && styles.animateLine2
         }`}
       ></hr>
-      <ProjectCard />
       <SocialMediaProject />
+      <ProjectCard />
       <WebProjectCard />
     </section>
   );

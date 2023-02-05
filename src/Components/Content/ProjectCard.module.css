@@ -9,7 +9,7 @@
 
 @keyframes animate-card {
   0% {
-    transform: translateX(64px);
+    transform: translateX(-64px);
   }
 
   100% {
