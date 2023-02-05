@@ -32,6 +32,13 @@ const SocialMediaSlides = () => {
       <SwiperSlide>
         <img
           className="object-cover w-full h-full rounded-lg gradient"
+          src={require("../../imgs/STPostExample.webp")}
+          alt="post"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img
+          className="object-cover w-full h-full rounded-lg gradient"
           src={require("../../imgs/STExplorePage.webp")}
           alt="explore page"
         />
