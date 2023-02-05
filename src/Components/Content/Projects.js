@@ -2,8 +2,8 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 import ProjectCard from "../Content/ProjectCard";
 import WebProjectCard from "../Content/WebProjectCard";
-
 import styles from "./Projects.module.css";
+import SocialMediaProject from "./SocialMediaProject";
 
 const Projects = ({ projectsRef }) => {
   const { ref: projectRef, inView: projectIsIntersecting } = useInView();
@@ -37,6 +37,7 @@ const Projects = ({ projectsRef }) => {
         }`}
       ></hr>
       <ProjectCard />
+      <SocialMediaProject />
       <WebProjectCard />
     </section>
   );

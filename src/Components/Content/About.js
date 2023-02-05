@@ -101,9 +101,8 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
         >
           HTML/CSS <span className="text-[#fcc419] text-lg">|</span> JAVASCRIPT{" "}
           <span className="text-[#fcc419] text-lg">|</span> REACT{" "}
-          <span className="text-[#fcc419] text-lg">|</span> REDUX{" "}
           <span className="text-[#fcc419] text-lg">|</span> TAILWIND CSS{" "}
-          <span className="text-[#fcc419] text-lg">|</span> GITHUB
+          <span className="text-[#fcc419] text-lg">|</span> GIT
         </div>
       </section>
     </>

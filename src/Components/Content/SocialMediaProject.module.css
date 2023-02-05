@@ -1,15 +1,15 @@
-.webPortfolio {
+.card {
   opacity: 0;
   animation-duration: 2s;
-  animation-name: animate-web;
+  animation-name: animate-card;
   animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
 
-@keyframes animate-web {
+@keyframes animate-card {
   0% {
-    transform: translateX(64px);
+    transform: translateX(-64px);
   }
 
   100% {
