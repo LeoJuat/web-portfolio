@@ -53,7 +53,7 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
           <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
             React
           </span>
-          , but have a strong background in{" "}
+          , but have a strong understanding of{" "}
           <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
             HTML
           </span>
