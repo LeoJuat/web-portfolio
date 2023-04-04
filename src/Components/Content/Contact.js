@@ -190,7 +190,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
           </a>
           <a
             href={
-              "https://drive.google.com/file/d/1x0oRSTK3zhLqmybrSpzwcfNvo6fCpCH5/view?usp=sharing"
+              "https://drive.google.com/file/d/1xgEj08SqAro2Ypg0fWP0j65SsfCE7CKe/view?usp=sharing"
             }
             target="_blank"
             rel="noreferrer"
