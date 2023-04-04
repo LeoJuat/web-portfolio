@@ -52,7 +52,7 @@ const Main = ({ mainRef }) => {
         >
           <a
             href={
-              "https://drive.google.com/file/d/1Sj9AqCPn143l5Iys1gehYlJSsazwGLvm/view?usp=sharing"
+              "https://drive.google.com/file/d/1x0oRSTK3zhLqmybrSpzwcfNvo6fCpCH5/view?usp=sharing"
             }
             target="_blank"
             rel="noreferrer"
