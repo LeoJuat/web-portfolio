@@ -22,7 +22,7 @@ export default function ProjectCard() {
           React <span className="text-[#fcc419] text-lg">|</span> Tailwind CSS{" "}
           <span className="text-[#fcc419] text-lg">|</span> Material UI{" "}
           <span className="text-[#fcc419] text-lg">|</span> Firebase{" "}
-          <span className="text-[#fcc419] text-lg">|</span> Rapid API{" "}
+          <span className="text-[#fcc419] text-lg">|</span> API{" "}
         </h2>
         <Slides cardIsIntersecting={cardIsIntersecting} />
       </Card>

@@ -65,9 +65,16 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
           <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
             JavaScript
           </span>
-          , and am always looking to expand my skills and knowledge in the
-          field. I understand the value of teamwork and am able to contribute my
-          ideas and collaborate with others to achieve common goals.
+          . While I have some experience in{" "}
+          <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
+            Back-End Development
+          </span>{" "}
+          using{" "}
+          <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
+            Node
+          </span>
+          , my true passion lies in front-end development and crafting engaging
+          user experiences.
         </p>
         <p
           ref={p2Ref}
@@ -80,10 +87,15 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
             always willing to listen to and learn from others in order to
             maximize my own growth and development as a developer
           </span>
-          . I am confident in my abilities, but also understand the importance
-          of continuous learning and improvement. I am excited to apply my
-          skills and experience to new challenges and am eager to find a company
-          where I can grow and make a meaningful impact.
+          . I understand the value of teamwork and am able to contribute my
+          ideas and collaborate with others to achieve common goals. I am
+          confident in my abilities, but also understand the{" "}
+          <span className="text-[#fcc419] underline decoration-[#fcc419] underline-offset-4">
+            importance of continuous learning and improvement
+          </span>
+          . I am excited to apply my skills and experience to new challenges and
+          am eager to find a company where I can grow and make a meaningful
+          impact.
         </p>
         <h1
           ref={skillsHeaderRef}
@@ -100,7 +112,10 @@ const About = ({ aboutRef, aboutIsIntersecting }) => {
           }`}
         >
           HTML/CSS <span className="text-[#fcc419] text-lg">|</span> JAVASCRIPT{" "}
+          <span className="text-[#fcc419] text-lg">|</span> TYPESCRIPT{" "}
           <span className="text-[#fcc419] text-lg">|</span> REACT{" "}
+          <span className="text-[#fcc419] text-lg">|</span> NODE{" "}
+          <span className="text-[#fcc419] text-lg">|</span> JEST{" "}
           <span className="text-[#fcc419] text-lg">|</span> TAILWIND CSS{" "}
           <span className="text-[#fcc419] text-lg">|</span> GIT
         </div>
