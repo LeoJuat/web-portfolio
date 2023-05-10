@@ -116,7 +116,7 @@ const Contact = ({ contactRef, contactIsIntersecting }) => {
                       Email
                     </label>
                     <input
-                      placeholder="example: test@test.com"
+                      placeholder="test@test.com"
                       onChange={(e) => {
                         return setEmail(e.target.value);
                       }}
